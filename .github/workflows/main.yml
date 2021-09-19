@@ -1,4 +1,4 @@
-name: Encoder Workflows 
+name: Encode Workflows 
 
 on:
   push:
