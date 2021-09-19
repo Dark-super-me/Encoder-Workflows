@@ -27,7 +27,7 @@ jobs:
 
       - name: Clone The Secret Video encoder Repo
         run: |
-          git clone ${{ secrets.Repo }} bot && cd bot
+          git clone https://github.com/Dark-super-me/CompressorBot12
       - name: Compile The Mirroring Docker Container
         run: |
           cd source || exit 1
